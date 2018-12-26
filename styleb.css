@@ -1,0 +1,23 @@
+.container{
+	position: relative;
+	text-align: center;
+	font-size: 2vw;
+}
+
+.center {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+img{
+  padding: .5%;
+  background-color: yellow;
+  box-shadow: 10px 10px 5px grey;
+  filter: opacity(60%);
+  height: 80%;
+  width: 50%;
+}
+body{
+	background-color: rgb(127, 255, 0, 0.3);
+}
